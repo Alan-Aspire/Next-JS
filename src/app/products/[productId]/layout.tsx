@@ -1,8 +1,8 @@
-export default function RootLayout({children}: {children: React.ReactNode}) {
-    return (<html>
-      <body>
+export default function ProductLayout({children}: {children: React.ReactNode}) {
+    return (
+      <>
         {children}
         <p>custom layout of specific page</p>
-      </body>
-    </html>);
+      </>
+    );
   }
